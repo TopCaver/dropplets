@@ -430,8 +430,6 @@ else {
             <meta charset="utf-8" />
             <title>Let's Get Started</title>
             <link rel="stylesheet" href="./dropplets/style/style.css" />
-            <link href='http://fonts.useso.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
-            <link href='http://fonts.useso.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
             <link rel="shortcut icon" href="./dropplets/style/images/favicon.png">
         </head>
 
