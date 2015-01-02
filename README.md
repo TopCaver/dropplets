@@ -1,6 +1,12 @@
 Dropplets
 =========
 
+## zh-CN分支
+Dropplets是一个极简的**Markdown**博客系统。简单到能让人专注于写作。
+CN分支，不是一个语言分支，因为Dropplets的英语界面也已经足够简单明了了，我觉得没什么必要去做汉化（也许捎带手会做一下），由于Dropplets使用了一些由于某种众所周知的原因从CN访问不到的API／CSS／字体等等……所以**zh-CN分支**是为了适应国情，而非语言。
+
+## Dropplets
+
 Dropplets is a minimalist **Markdown** blogging platform focused on delivering just what you need in a blogging solution, but absolutely nothing you don't. When it comes to basic blogging, all you really want to do is write & publish which is where Dropplets excels. It's databaseless, so it installs on any server in just about 30 seconds. 
 
 ## What's Markdown?
