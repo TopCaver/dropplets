@@ -12,6 +12,7 @@ posts/*.jpg
 
 templates/*
 !templates/simple/
+!templates/topcaver/
 
 plugins/*
 !plugins/index.php
