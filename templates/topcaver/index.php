@@ -24,13 +24,13 @@
             <div class="row">
                 <div class="one-quarter meta">
                     <div class="thumbnail">
-                        <img src="<?php echo get_twitter_profile_img($blog_twitter); ?>" alt="profile" />
+                        <img src="<?php echo get_default_profile_img(); ?>" alt="profile" />
                     </div>
         
                     <ul>
                         <li><?php echo($blog_title); ?></li>
                         <li><a href="mailto:<?php echo($blog_email); ?>?subject=Hello"><?php echo($blog_email); ?></a></li>
-                        <li><a href="http://twitter.com/<?php echo($blog_twitter); ?>">&#64;<?php echo($blog_twitter); ?></a></li>
+                        <li><a href="http://weibo.com/<?php echo($blog_twitter); ?>">&#64;<?php echo($blog_twitter); ?></a></li>
                         <li></li>
                     </ul>
                 </div>

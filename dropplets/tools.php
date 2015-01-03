@@ -12,7 +12,7 @@ if (!isset($_SESSION['user'])) { ?>
     <div class="dp-panel">
         <div class="dp-row profile">
             <div class="dp-icon">
-                <img src="<?php echo get_twitter_profile_img(BLOG_TWITTER); ?>" alt="<?php echo(BLOG_TITLE); ?>" />
+                 <!-- <img src="<?php echo get_default_profile_img(BLOG_TWITTER); ?>" alt="<?php echo(BLOG_TITLE); ?>" /> -->
             </div>
             
             <div class="dp-content">
@@ -61,7 +61,9 @@ if (!isset($_SESSION['user'])) { ?>
     <div class="dp-panel">
         <div class="dp-row profile">
             <div class="dp-icon">
+            <!--
                 <img src="<?php echo get_twitter_profile_img(BLOG_TWITTER); ?>" alt="<?php echo(BLOG_TITLE); ?>" />
+            -->
             </div>
             
             <div class="dp-content">
@@ -325,7 +327,7 @@ if (!isset($_SESSION['user'])) { ?>
 /*-----------------------------------------------------------------------------------*/
 
 if (isset($_SESSION['user'])) { ?> 
-<script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
+<!-- <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script> -->
 <script type="text/javascript" src="<?php echo(BLOG_URL); ?>dropplets/includes/js/uploader.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function($) {    
