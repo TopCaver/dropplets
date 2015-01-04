@@ -16,6 +16,7 @@ templates/*
 
 plugins/*
 !plugins/index.php
+!plugins/topcaver.php
 
 posts/*
 !posts/index.php
