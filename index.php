@@ -339,7 +339,7 @@ else {
         // Get the post image url.
         // TODO: 修改img
         // $post_image = get_post_image_url($filename) ?: get_twitter_profile_img($post_author_twitter);
-        $post_image = get_post_image_url($filename) ?: “”;
+        $post_image = get_post_image_url($filename) ?: get_default_profile_img();
 
         // Get the post content
         $file_array = array_slice( file($filename), 7);
