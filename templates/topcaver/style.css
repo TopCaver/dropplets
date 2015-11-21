@@ -34,13 +34,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4 { 
-    font-size: 24px;
+/*    font-size: 24px;*/
     line-height: 39px;
 }
 
 h3, h4 { 
     margin-top: 20px;
 }
+h1 {font-size: 30px;}
+h2 {font-size: 24px;}
+h3 {font-size: 22px;}
+h4 {font-size: 20px;}
+h5 {font-size: 18px;}
+h6 {font-size: 13px;}
 
 p, ul, ol {
     margin: 0 0 20px;
@@ -78,11 +84,27 @@ a:hover, a:focus {
 }
 
 code, pre {
-    font-family: 'Source Sans Pro', monospace;
+    font-family: Monaco, Andale Mono, Courier New, monospace;
     text-rendering: optimizeLegibility;
-    font-size: 18px;
-    letter-spacing: 0.1em;
-    margin: 0 0.1em;
+    font-size: 14px;
+    /*margin: 0 0.1em;*/
+    /*letter-spacing: 0.01em;*/
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    color:#737373;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 /* Posts
@@ -176,7 +198,7 @@ article.single {
     font-size: 14px;
     line-height: 24px;
     font-weight: 300;
-    border-radius: 40px;
+    border-radius: 10px; /* 原始：40px */
     color: #9b9b9b;
     float: left;
     margin: 0 0 10px 0;
