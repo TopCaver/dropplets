@@ -8,17 +8,19 @@
         <?php echo($page_meta); ?>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <?php get_header(); ?>
+
         <link rel="stylesheet" href="<?php echo($template_dir_url); ?>style.css">
         <link rel="stylesheet" href="<?php echo($template_dir_url); ?>subdiv.css">
+        <link rel="stylesheet" href="<?php echo($template_dir_url); ?>prism.css">
         <!--
         <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
         <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
         -->
-        <?php get_header(); ?>
+        
     </head>
 
-    <body>
+    <body class="language-php">
         <?php if($is_home) { ?>
         <article>
             <div class="row">
@@ -50,5 +52,6 @@
         <?php echo($content); ?>
         
         <?php get_footer(); ?>
+        <script type="text/javascript" src="<?php echo($template_dir_url); ?>prism.js"></script>
     </body>
 </html>
